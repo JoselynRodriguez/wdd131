@@ -1,0 +1,101 @@
+header {
+    width: 100%;
+    height: 100px;
+
+}
+
+#course-title {
+     background-color: rgb(88, 16, 156);
+     color: white;
+     height: 40px;
+     font-size: 1.8rem;
+     display: block;
+     text-align: center;
+     padding: 0.8rem;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(149, 217, 238);
+    font-size: 1.3rem;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+h1 {
+    background-color: beige;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.cards {
+    background-color: rgb(243, 195, 227);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.card {
+    border: 4px solid #582242;
+    border-radius: 1.5rem;
+    margin: 16px;
+}
+img {
+    width: 140px;
+}
+
+h2{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0.8rem;
+    background-color: rgb(88, 16, 156);
+    color: white;
+}
+
+.introduction {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.country div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    margin-top: 0px;
+}
+
+footer {
+    background-color: rgb(88, 16, 156);
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0.5px;
+}
+
+.introduction p {
+    padding: 10px;
+}
+p {
+    padding: px;
+}
+
+.list {
+    font-size: 25px;
+    padding: 5rem;
+}
+
+li{
+    padding: 2.5px;
+}
