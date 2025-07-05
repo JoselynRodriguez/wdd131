@@ -22,6 +22,11 @@ nav {
     padding: 0.5rem;
 }
 
+nav a:hover {
+    text-decoration: overline;
+}
+
+
 h1 {
     background-color: beige;
     font-size: 3rem;
@@ -96,4 +101,13 @@ footer {
 
 li{
     padding: 2.5px;
+}
+
+main{
+    max-width: 88rem ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+
 }
