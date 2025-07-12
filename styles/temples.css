@@ -24,6 +24,7 @@ header h1 {
 
 main h2 {
     text-align: center;
+    font-size: 40px;
 }
 main {
     display:grid;
