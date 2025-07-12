@@ -3,16 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Temples</title>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals|Joselyn Rodriguez|Temple Album .">
     <meta name="author" content="Joselyn Rodriguez">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/temples.css">
-    
-    <script src="scripts/getdates.js" defer></script>
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="old.html">Old</a></li>
+                <li><a href="new.html">New</a></li>
+                <li><a href="large.html">Large</a></li>
+                <li><a href="small.html">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="images">
+            <figure>
+                <img src="images/saopablo.jpg" alt="Sao Pablo Brazil temple">
+                <figcaption>Sao Pablo Brazil temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/taylosville.jpg" alt="Taylosville Utah Temple">
+                <figcaption>Taylosville Utah Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/saltlake.jpg" alt="Salt Lake Temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/trujillo.jpg" alt="Trujillo Peru Temple">
+                <figcaption>Trujillo Peru Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/losangeles.jpg" alt="Los Angeles Temple">
+                <figcaption>Los Angeles California Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/houston.jpg" alt="Houston Texas Temple">
+                <figcaption>Houston Texas Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/lima.jpg" alt="Lima Peru Temple">
+                <figcaption>Lima Peru Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/oakland.jpg" alt="Oakland California Temple ">
+                <figcaption>Oakland California Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/roma.jpg" alt="Roma Italy Temple">
+                <figcaption>Roma Italy Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>©️<span id="currentyear"></span>🌺 Joselyn Rodriguez 🌺 Lima</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>

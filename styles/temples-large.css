@@ -1,0 +1,22 @@
+@media (min-width: 740px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav ul{
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+	nav a {
+		flex: 1 5 100%;
+	}
+} 
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+img { width: 100%; height: auto; margin: .5rem;}
