@@ -62,7 +62,6 @@ svg {
     gap: 10px;
     background-color: var(--secondary-color);
     margin: 1.5rem;
-    padding: 1rem 0;
     border: 1px solid var(--secondary-color);
     box-shadow: 1px 1px 1.4px var(--secondary-color);
     
