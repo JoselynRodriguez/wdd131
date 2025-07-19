@@ -1,12 +1,17 @@
+:root {
+    --primary-color: rgb(226, 8, 8);
+    --secondary-color: white;
+}
+
 header {
-    background-color: rgb(226, 8, 8);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
     font-size: 40px;
 }
 
 article {
-    background-color: rgb(208, 241, 241);
+    background-color: var(--secondary-color);
     margin: 3px;
     padding: 1rem;
     font-size: 15px;
@@ -30,13 +35,13 @@ section h2 {
     width: 100%;
     height: auto;
     display: block;
-    border-top: 8px solid #d32f2f;
-    border-bottom: 8px solid #d32f2f
+    border-top: 8px solid var(--primary-color);
+    border-bottom: 8px solid var(--primary-color);
 }
 
 footer {
-    background-color: rgb(226, 8, 8);
-    color: white;
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
     font-size: 25px;
 }
@@ -55,16 +60,16 @@ svg {
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 10px;
-    background-color: #fff;
+    background-color: var(--secondary-color);
     margin: 1.5rem;
     padding: 1rem 0;
-    border: 1px solid #eee;
-    box-shadow: 1px 1px 1.4px #ccc;
+    border: 1px solid var(--secondary-color);
+    box-shadow: 1px 1px 1.4px var(--secondary-color);
     
 }
 
 .data, .weather {
-    background: rgba(255, 255, 255, 0.9);
+    background-color: var(--secondary-color);
     padding: 1em;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
