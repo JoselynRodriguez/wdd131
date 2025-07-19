@@ -7,7 +7,7 @@ header {
 
 article {
     background-color: rgb(208, 241, 241);
-    margin: 5px;
+    margin: 3px;
     padding: 1rem;
     font-size: 15px;
     display: flex;
@@ -22,7 +22,7 @@ h2 {
 }
 
 .hero {
-    position: absolute;
+    position: relative;
 }
 .hero img {
     width: 100%;
@@ -44,22 +44,19 @@ footer {
 }
 
 .description {
-    position: absolute;
+    position: relative;
     top: 10%;
     left: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
+    display: grid;
 }
 
 .data, .weather {
-    background: rgba(255, 255, 255, 0.9); /* semi-transparente */
+    background: rgba(255, 255, 255, 0.9);
     padding: 1em;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 250px;
-}
-
-.data {
-    
 }
