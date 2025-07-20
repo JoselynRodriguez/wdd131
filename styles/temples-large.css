@@ -11,12 +11,29 @@
 	nav a {
 		flex: 1 5 100%;
 	}
-} 
 
-div {
+	#menu {
+		display: none;
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+		font-size: 2rem;
+	}
+
+	.images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+	}
+	img { 
+		width: 100%; 
+		height: auto; 
+		margin: .5rem;
+	}
+} 
 
-}
-
-img { width: 100%; height: auto; margin: .5rem;}

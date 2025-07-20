@@ -15,8 +15,6 @@ div {
     place-items: center;
 }
 
-
-
 header h1 {
     display: flex;
     text-align: center;
@@ -43,28 +41,54 @@ header {
     align-items: center;
 }
  
-nav a {
-    font-size: 25px;
-    color: white;
-    padding: 0.6rem;
-}
 
-nav ul {
-	list-style: none;
+.navigation {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
+	list-style: none;
+	color: #fff;
 }
 
-nav a:hover {
-	text-decoration: underline double;
-	background-color: #c8eb07;
-	color: #300606;
-    font-size: 25px;
-    }
+.navigation a {
+	display: none;
+	padding: 0.5rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+    font-size: 2rem;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #8cec53;
+	font-weight: 700;
+    font-size: 2rem;
+}
+
+#menu {
+    font-size: 1.75rem;
+    border: 2px;
+    background: none;
+    color: #fff;
+    top: 2rem;
+    right: 1rem;
+    position: absolute;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.open a {
+	display: block;
+}
 
 img {
     width: 250px;
-    
 }
 
 figure {
@@ -78,3 +102,4 @@ figure {
 footer {
     font-size: 25px;
 }
+
