@@ -2,11 +2,120 @@ header, footer {
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: 1rem;
-    background-color: rgb(91, 36, 143);
+    background-color: rgb(86, 19, 145);
     color: white;
     text-align: center;
 }
 
+a {
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.res-grid {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+}
+
+header h1 {
+    display: flex;
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 40px;
+}
+main {
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #E6f2ff;
+    text-align: center;
+}
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+ 
+
+
+
+img {
+    width: 250px;
+}
+
+
+footer {
+    font-size: 25px;
+}
+
+#navmenu {
+    display: flex;
+    color: rgb(14, 0, 0);
+    gap: 1rem;
+}
+
+#navmenu.show {
+  display: block;
+}
+
+
+#hambutton.show {
+  background-color: #a00dda;
+  color: black;
+}
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #navmenu {
+    display: none; 
+    flex-direction: column;
+    justify-content: right;
+    gap: 0.5rem;
+    background-color: #a00dda;
+    padding: 1rem;
+
+  }
+
+  #navmenu.show {
+    display: flex; 
+  }
+
+  #hambutton {
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .res-grid {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    border-radius: 0;
+  }
+  #hambutton::before {
+	content: "☰";
+}
+
+  #hambutton.show::before {
+	content: "❌";
+}
+
+}
 
 div {
     display: grid;
@@ -40,52 +149,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
- 
 
-.navigation {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	list-style: none;
-	color: #fff;
-}
-
-.navigation a {
-	display: none;
-	padding: 0.5rem;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-    font-size: 2rem;
-}
-.navigation a:hover {
-	background-color: #bbb;
-	color: #8cec53;
-	font-weight: 700;
-    font-size: 2rem;
-}
-
-#menu {
-    font-size: 1.75rem;
-    border: 2px;
-    background: none;
-    color: #fff;
-    top: 2rem;
-    right: 1rem;
-    position: absolute;
-}
-
-#menu::before {
-	content: "☰";
-}
-
-#menu.open::before {
-	content: "❌";
-}
-
-.open a {
-	display: block;
-}
 
 img {
     width: 250px;

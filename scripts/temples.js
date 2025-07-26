@@ -4,10 +4,14 @@ document.getElementById("currentyear").textContent = year;
 const lastModDate = document.lastModified;
 document.getElementById("lastModified").textContent = `Last Modification: ${lastModDate}`;
 
-const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.navigation');
+const hambutton = document.querySelector('#hambutton');
 
-hamButton.addEventListener('click', () => {
-	navigation.classList.toggle('open');
-	hamButton.classList.toggle('open');
+hambutton.addEventListener('click', () => {
+	document.querySelector(`h1`).classList.toggle(`show`);
+	document.querySelector(`#navmenu`).classList.toggle(`show`);
+	hambutton.classList.toggle('show');
 });
+
+function toggleActive(element) {
+	element.classList.toggle("active");
+}

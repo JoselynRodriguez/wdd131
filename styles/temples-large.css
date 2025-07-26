@@ -4,26 +4,11 @@
 		align-items: center;
 		justify-content: space-between;
 	}
-	nav ul{
-		justify-content: flex-end;
-		flex-direction: row;
-	}
-	nav a {
-		flex: 1 5 100%;
-	}
-
-	#menu {
-		display: none;
-	}
-
-	.navigation {
-		flex-direction: row;
-	}
-
-	.navigation a {
-		display: block;
-		flex: 1 1 100%;
-		font-size: 2rem;
+	
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 	.images {
@@ -35,5 +20,27 @@
 		height: auto; 
 		margin: .5rem;
 	}
-} 
+	#hambutton {
+    display: none;
+    font-size: 1.75rem;
+    border: 2px;
+    background: none;
+    color: #fff;
+    top: 2rem;
+    right: 1rem;
+    position: absolute;
+	} 
+
+	#navmenu a:hover {
+	background-color: #bbb;
+	color: #8cec53;
+	font-weight: 700;
+    font-size: 2rem;
+}
+	.open #navmenu {
+	display: block;
+}
+
+}
+
 
