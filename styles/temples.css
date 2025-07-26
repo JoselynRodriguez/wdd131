@@ -44,8 +44,6 @@ header {
     justify-content: space-between;
     align-items: flex-end;
 }
- 
-
 
 
 img {
@@ -72,6 +70,7 @@ footer {
   background-color: #a00dda;
   color: black;
 }
+
 @media (max-width: 500px) {
   header {
     display: flex;
@@ -109,12 +108,11 @@ footer {
   }
   #hambutton::before {
 	content: "☰";
-}
+  }
 
   #hambutton.show::before {
 	content: "❌";
-}
-
+  }
 }
 
 div {
@@ -149,7 +147,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 
 img {
     width: 250px;
