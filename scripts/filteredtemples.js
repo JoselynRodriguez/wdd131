@@ -101,12 +101,11 @@ const temples = [
 ];
 
 createTempleCard(temples);
-// Clear existing cards before rendering new ones
+
 function clearTemples() {
   document.querySelector(".res-grid").innerHTML = "";
 }
 
-// Apply filters based on menu selection
 function filterTemples(criteria) {
   let filtered = [];
 
@@ -133,7 +132,7 @@ function filterTemples(criteria) {
       filtered = temples.filter(temple => temple.area < 10000);
       break;
 
-    default: // "home" or any other
+    default: 
       filtered = temples;
   }
 
