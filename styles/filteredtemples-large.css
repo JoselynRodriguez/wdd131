@@ -1,0 +1,41 @@
+@media (min-width: 800px) {
+  .res-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+
+	img { 
+		width: 100%; 
+		height: auto; 
+		margin: .5rem;
+	}
+
+	#hambutton {
+    display: none;
+    font-size: 1.75rem;
+    border: 2px;
+    background: none;
+    color: #fff;
+    top: 2rem;
+    right: 1rem;
+    position: absolute;
+	} 
+
+	#navmenu a:hover {
+	background-color: #bbb;
+	color: #8cec53;
+	font-weight: 700;
+    font-size: 2rem;
+}
+.open #navmenu {
+	display: block;
+}
+
+}
+
