@@ -1,0 +1,35 @@
+@media (max-width: 600xp) {
+  body {
+    padding: 1rem;
+  }
+
+  form {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 1rem;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+  }
+
+  fieldset{
+    display: flex;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 1.2rem;
+    justify-content: space-around;
+    align-items: right;
+    border: none;
+    padding: 0.5rem;
+    }
+
+}
