@@ -17,10 +17,46 @@
         <h1>Product Review</h1>
     </header>
     <main>
-        <div>
-            <h2>Product Name</h2>
-            <form method="get" action="review.html"></form>
-        </div>
+        <form method="get" action="review.html">
+            <fieldset>
+                <lebel for="product">Product Name</lebel>
+                <select name="product" id="product" required>
+                    <option value=""disabled selected>Select a Product</option>
+                    
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend for="rating" id="rate">Overall Rating</legend>
+                    <label><input type="radio" id="star1" name="rating" value="1" required> ☆</label>
+                    <label><input type="radio" id="star2" name="rating" value="2" required> ☆☆</label>
+                    <label><input type="radio" id="star3" name="rating" value="3" required> ☆☆☆</label>
+                    <label><input type="radio" id="star4" name="rating" value="4" required> ☆☆☆☆</label>
+                    <label><input type="radio" id="star5" name="rating" value="5" required> ☆☆☆☆☆</label>
+            </fieldset>
+            <fieldset>
+                <label for="installdate" id="date">Date of Installation <input type="date" id="installdate" name="installDate" required></label>
+            </fieldset>
+            <fieldset>
+                <legend></legend>
+                    <label for="question" id="useful">Which features did you find useful in the product?</label>
+                    <label for="check" id="check">(Check all that apply)</label>
+                    <label><input type="checkbox" id="durability" name="features" value="Durability"> Durability</label>
+                    <label><input type="checkbox" id="ease" name="features" value="Ease of Use"> Ease of Use</label>
+                    <label><input type="checkbox" id="performance" name="features" value="Performance"> Performance</label>
+                    <label><input type="checkbox" id="design" name="features" value="Design"> Design</label>
+            </fieldset>
+            <fieldset>
+                <label for="writereview">Writing Review</label>
+                <textarea id="review" name="review" rows="4" cols="50"></textarea>
+            </fieldset>
+            <fieldset>
+                <label for="yourname">Your Name</label>
+                <input type="text" id="username" name="username">               
+            </fieldset>
+        
+        <input type="submit" value="Send my Review">
+
+        </form>
     </main>
     <footer>
         <p>©️<span id="currentyear"></span>🌺 Joselyn Rodriguez 🌺 Lima</p>
