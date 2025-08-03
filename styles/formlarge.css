@@ -20,13 +20,14 @@
     width: 100%;
   }
 
-  fieldset {
+  #checkbox, #rating{
     border: none;
     padding: 0.5rem;
     display: flex;
     flex-direction: row;
     display: grid;
     grid-template-columns: 1fr;
+
     }
 
 }

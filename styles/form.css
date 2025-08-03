@@ -38,11 +38,13 @@ textarea {
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: rgb(236, 182, 227);
 }
 
 fieldset{
     border: none;
     padding: 0.5rem;
+
 }
 
 
@@ -81,7 +83,7 @@ footer {
   text-align: center;
   font-size: 0.85rem;
   margin-top: 2rem;
-  color: #666;
+  color:black;
 }
 
 label {
