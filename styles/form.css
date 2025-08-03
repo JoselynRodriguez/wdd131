@@ -40,8 +40,13 @@ textarea {
   border-radius: 5px;
 }
 
-
 fieldset{
+    border: none;
+    padding: 0.5rem;
+}
+
+
+#checkbox, #rating{
     display: flex;
     border: none;
     display: grid;
