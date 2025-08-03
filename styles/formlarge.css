@@ -1,4 +1,4 @@
-@media (max-width: 600xp) {
+@media (max-width: 750xp) {
   body {
     padding: 1rem;
   }
@@ -27,7 +27,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-top: 1.2rem;
     justify-content: space-around;
-    align-items: right;
     border: none;
     padding: 0.5rem;
     }
