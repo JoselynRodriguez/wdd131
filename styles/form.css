@@ -40,14 +40,17 @@ textarea {
   border-radius: 5px;
 }
 
-fieldset {
+
+fieldset{
+    display: flex;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 1.2rem;
+    justify-content: space-around;
     border: none;
     padding: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: 1fr;
-    }
+}
 
 textarea {
   resize: vertical;
