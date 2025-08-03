@@ -19,10 +19,13 @@
     </header>
     <main>
         <form method="get" action="review.html">
-            <lebel for="product">Product Name</lebel>
-            <select name="product" id="product" required>
-                <option value="" disabled selected>Select a Product</option>
-            </select>
+            <fieldset>
+                <legend>Product Name</legend>
+                <select name="product" id="product" required>
+                    <option value="" disabled selected>Select a Product</option>
+                </select>
+            </fieldset>
+            
             <fieldset id="rating">
                 <legend id="rate">Overall Rating</legend>
                     <label><input type="radio" id="star1" name="rating" value="1" required> ☆</label>
