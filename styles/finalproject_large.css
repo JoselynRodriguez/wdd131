@@ -2,7 +2,7 @@
     .overview {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 
     }
    picture img {
@@ -28,7 +28,7 @@
     .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: white;
     width: 940px;
     height: auto;
