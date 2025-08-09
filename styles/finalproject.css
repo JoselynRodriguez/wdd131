@@ -5,5 +5,22 @@
 }
 
 header { 
-    
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    display: flex;
+
+}
+
+header img {
+    width: 18%;
+    min-width: 63px;
+    height: 85px;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 25px;
+    font-family: "Playwrite AU QLD", cursive;
+    font-style: normal;
 }
