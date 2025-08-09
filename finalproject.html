@@ -16,33 +16,37 @@
 <body>
     <header>
         <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
-        <Section>
-            <h1>My Sweet & Favorite place</h1>
-            <img src="images/logoproject.jpg" alt="Logo">
-            <a href="#" id="hambutton"></a>
-            <nav>
-                <a href="finalproject.html">Principal</a>
-                <a href="Offerts.html">Offerts</a>
-                <a href="tools.html">Tools</a>
-                <a href="contactus.html">Contact us</a>
-            </nav>
+        <a href="#" id="hambutton"></a>
+        <Section class="title">
+            <figure>
+                <img class="logo" src="images/logoproject.jpg" alt="Logo">
+            </figure>
+            <h1>My Sweet & Favorite Place</h1>
+            <div class="links">
+                <nav class="windows">
+                    <a href="finalproject.html">Principal</a>
+                    <a href="Offerts.html">Offerts</a>
+                    <a href="tools.html">Tools</a>
+                    <a href="contactus.html">Contact us</a>
+                </nav>
+            </div>
         </Section>
     </header>
     <main>
         <Section>
+            <h2>Our ideal</h2>
             <div class="overview">
-                <h2>Our ideal</h2>
-            <picture>
+                <picture>
                 <source srcset="images/cakelarge.webp" media="(min-width: 1000px)">
                 <source srcset="images/cake.webp" media="(min-width: 500px)">
                 <img src="images/cakesmall.webp" alt="Wedding Cake" width="500" height="300">
-            </picture>
-            <p>Our main goal is to sweeten your lives and hearts with our delicious cakes and snacks. We want happiness to be felt in a single bite. In our online store, you can find whatever you want, and we can customize it to suit every occasion.</p>
-        </div>
+                </picture>
+                <p>Our main goal is to sweeten your lives and hearts with our delicious cakes and snacks. We want happiness to be felt in a single bite. In our online store, you can find whatever you want, and we can customize it to suit every occasion.</p>
+            </div>
         </Section>
         <section>
+            <h2>Our desserts</h2>
             <div class="images">
-                <h2>Our desserts</h2>
                 <figure>
                     <img src="images/cake1.jpg" alt="Cupcakes">
                     <figcaption>Cupcakes</figcaption>
@@ -57,16 +61,12 @@
                 </figure>
             </div>
         </section>
+        <h2>Search us</h2>
         <section class="contact">
             <form class="contact-form">
-                <h3>Contact Us</h3>
                 <label>First Name: <input type="text" name="firstName"></label>
-                <label>Last Name: <input type="text" name="lastName"></label>
-                <label>Cell: <input type="tel" name="cell"></label>
                 <label>Email: <input type="email" name="email"></label>
-                <label for="help">How we can help you?</label>
-                <textarea id="help" name="help" rows="4" cols="50"></textarea>
-            <input type="submit" value="Contact us">
+            <input type="submit" value="Contact me">
             </form>
             <div class= "map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d150093.977177566!2d-76.98740663040871!3d-12.052981614773481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spe!4v1749270189385!5m2!1sen!2spe" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
