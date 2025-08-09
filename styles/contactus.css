@@ -8,8 +8,8 @@ header {
     background-color: var(--background-color);
     display: grid;
     grid-template-rows: 1fr 1fr;
-    margin: 0xp;
-    padding: 0xp;
+    margin: 0px;
+    padding: 0px;
 }
 
 .logo {
