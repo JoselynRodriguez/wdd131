@@ -17,11 +17,13 @@
     width: auto;
     height: auto;
     }
+
     .images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center; 
     }
 
